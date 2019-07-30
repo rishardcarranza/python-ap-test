@@ -7,6 +7,6 @@ sudo iwconfig wlan0 channel 4 #set the channel 4
 sudo iwconfig wlan0 essid 'raspberrypi_wifi'
 sudo iwconfig wlan0 key 1234567890
 rfkill list # to know what network interface is down
-sudo rfkill unblock 0 # to activate the wifi interface 
+sudo rfkill unblock 0 # to unblock the wifi interface 
 sudo ifconfig wlan0 up # Activate the wlan0 again
 
